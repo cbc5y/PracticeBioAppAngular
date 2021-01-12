@@ -1,0 +1,16 @@
+<br>
+<div id="smediv" >
+  <h3>Christian's Relevant Social Media Profiles</h3>
+  <p>Make sure to connect with me!</p>
+  <ul>
+    <li *ngFor = "let socialmedia of socialmedias">
+      <button class = "btn-success" a href="https://www.linkedin.com/in/christian-castaneda-342a29142/">{{ socialmedia.linkedin }}</button>
+    </li>
+    <li *ngFor = "let socialmedia of socialmedias">
+      <button class = "btn-success" a href="https://twitter.com/christiankaleid">{{ socialmedia.twitter }}</button>
+    </li>
+    <li *ngFor = "let socialmedia of socialmedias">
+      <button class = "btn-success" a href= "https://github.com/cbc5y">{{ socialmedia.github }}</button>
+    </li>
+  </ul>
+</div>

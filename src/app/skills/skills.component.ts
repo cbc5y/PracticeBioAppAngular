@@ -14,7 +14,6 @@ export class SkillsComponent implements OnInit {
   constructor(private skillsService: SkillsService) {
     this.dataService = skillsService;
    }
-  // dataservice: SkillsService;
   
 
   ngOnInit() {
