@@ -1,6 +1,7 @@
 #header {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
   }
 #header img {
     max-width: 300px;
@@ -11,8 +12,8 @@ h3{
     background-color: rgb(210, 203, 216);
     padding: 4px;
     border: 1px dotted #e6eff6;
-    margin-right: 600px;
-    margin-left: 600px;
+    margin-right: 25%;
+    margin-left: 25%;
     margin-top: 1%;
 }
 h5{
@@ -25,4 +26,12 @@ p{
 }
 app-skills {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+
+.iframe-container{
+    
+    margin-top: 2%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-bottom: 2%;
 }

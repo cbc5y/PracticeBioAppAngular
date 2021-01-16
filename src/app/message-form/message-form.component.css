@@ -1,0 +1,32 @@
+.msgform{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom:10px;
+    border: 0.4em rgb(97, 108, 255) solid;
+    border-radius: 5%;
+    padding: 3%;
+}
+.btn-primary{
+    border-radius: 3em;
+}
+h3{
+    background-color: rgb(210, 203, 216);
+    padding: 4px;
+    border: 1px dotted #e6eff6;
+    margin-right: 25%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 2px solid red;
+}
+
+input.ng-valid.ng-touched,
+textarea.ng-valid.ng-touched {
+    border-bottom: 2px solid green;
+}

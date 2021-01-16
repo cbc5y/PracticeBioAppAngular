@@ -9,13 +9,15 @@ import { SocialmediaComponent } from './socialmedia/socialmedia.component';
 import { SocialmediaService } from './services/socialmedia.service';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { GreetingComponent } from './greeting/greeting.component';
+import { MessageFormComponent } from './message-form/message-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SkillsComponent,
     SocialmediaComponent,
-    GreetingComponent
+    GreetingComponent,
+    MessageFormComponent
   ],
   imports: [
     BrowserModule,
